@@ -12,7 +12,7 @@ import axios from 'axios'
 
 export default function Home() {
   const handleDownload = () =>{
-    fetch('ManojResume.pdf').then(response =>{
+    fetch('2100032430_ManojKrishna.pdf').then(response =>{
       response.blob().then(blob =>{
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement('a');
