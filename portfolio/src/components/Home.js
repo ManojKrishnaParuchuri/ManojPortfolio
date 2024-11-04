@@ -17,7 +17,7 @@ export default function Home() {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement('a');
         alink.href=fileURL;
-        alink.download = 'ManojResume.pdf';
+        alink.download = '2100032430_ManojKrishna.pdf';
         alink.click();
       })
     })
